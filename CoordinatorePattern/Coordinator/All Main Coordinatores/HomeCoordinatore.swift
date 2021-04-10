@@ -33,17 +33,17 @@ class HomeCoordinatore: NSObject, Coordinator, UINavigationControllerDelegate{
     func navigateToBuyVC(selectedDate: String){
         let buyCoordinatore = BuyCordinatore(navigationController: self.navigationController,selectedDate: selectedDate)
         childCoordinators.append(buyCoordinatore)
-        buyCoordinatore.parentCoordinator = self
+      //  buyCoordinatore.parentCoordinator = self
         buyCoordinatore.start()
     }
     
-    func navigateToMoreDetailsVC(){
-        let moreDetailsCoordinatore = MoreDetailsCoordinatore(navigationController: self.navigationController)
-        childCoordinators.append(moreDetailsCoordinatore)
-        moreDetailsCoordinatore.parentCoordinator = self
-        moreDetailsCoordinatore.start()
-    }
-    
+//    func navigateToMoreDetailsVC(){
+//        let moreDetailsCoordinatore = MoreDetailsCoordinatore(navigationController: self.navigationController)
+//        childCoordinators.append(moreDetailsCoordinatore)
+//        moreDetailsCoordinatore.parentCoordinator = self
+//        moreDetailsCoordinatore.start()
+//    }
+//    
 
     func childDidFilish(_ child: Coordinator?){
         for (index , coordinatore) in childCoordinators.enumerated(){

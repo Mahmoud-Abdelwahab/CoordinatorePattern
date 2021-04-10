@@ -8,7 +8,7 @@
 import UIKit
 
 class MoreDetailsCoordinatore: Coordinator{
-    weak var parentCoordinator: HomeCoordinatore?
+    weak var parentCoordinator: BuyCordinatore?
 
     var childCoordinators =  [Coordinator]()
     

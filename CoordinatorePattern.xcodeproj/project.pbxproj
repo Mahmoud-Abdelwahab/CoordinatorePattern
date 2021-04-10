@@ -22,6 +22,8 @@
 		A7CCC3DE26221266004E3876 /* CreateAccountCoordinatore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CCC3DD26221266004E3876 /* CreateAccountCoordinatore.swift */; };
 		A7CCC3E12622300F004E3876 /* MoreDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CCC3E02622300F004E3876 /* MoreDetailsVC.swift */; };
 		A7CCC3E526223154004E3876 /* MoreDetailsCoordinatore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CCC3E426223154004E3876 /* MoreDetailsCoordinatore.swift */; };
+		A7CCC3EC26223BF2004E3876 /* MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CCC3EB26223BF2004E3876 /* MainTabBarVC.swift */; };
+		A7CCC3EF26223C4F004E3876 /* MainTabBarVCCoordinatore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CCC3EE26223C4F004E3876 /* MainTabBarVCCoordinatore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		A7CCC3DD26221266004E3876 /* CreateAccountCoordinatore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountCoordinatore.swift; sourceTree = "<group>"; };
 		A7CCC3E02622300F004E3876 /* MoreDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreDetailsVC.swift; sourceTree = "<group>"; };
 		A7CCC3E426223154004E3876 /* MoreDetailsCoordinatore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreDetailsCoordinatore.swift; sourceTree = "<group>"; };
+		A7CCC3EB26223BF2004E3876 /* MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
+		A7CCC3EE26223C4F004E3876 /* MainTabBarVCCoordinatore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarVCCoordinatore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 				A7A75B68261D3315001DCFEA /* BuyVC.swift */,
 				A7A75B6C261D332B001DCFEA /* CreateAccountVC.swift */,
 				A7CCC3E02622300F004E3876 /* MoreDetailsVC.swift */,
+				A7CCC3EB26223BF2004E3876 /* MainTabBarVC.swift */,
 				A7A75B5F261D2FA4001DCFEA /* Coordinator */,
 				A7A75B49261D2F39001DCFEA /* AppDelegate.swift */,
 				A7A75B4B261D2F39001DCFEA /* SceneDelegate.swift */,
@@ -103,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				A7A75B70261D34D0001DCFEA /* HomeCoordinatore.swift */,
+				A7CCC3EE26223C4F004E3876 /* MainTabBarVCCoordinatore.swift */,
 				A7CCC3DA2622124F004E3876 /* BuyCordinatore.swift */,
 				A7CCC3DD26221266004E3876 /* CreateAccountCoordinatore.swift */,
 				A7CCC3E426223154004E3876 /* MoreDetailsCoordinatore.swift */,
@@ -183,10 +189,12 @@
 				A7A75B61261D2FC5001DCFEA /* Coordinator.swift in Sources */,
 				A7A75B4E261D2F39001DCFEA /* HomeVC.swift in Sources */,
 				A7CCC3E526223154004E3876 /* MoreDetailsCoordinatore.swift in Sources */,
+				A7CCC3EC26223BF2004E3876 /* MainTabBarVC.swift in Sources */,
 				A7A75B65261D30C7001DCFEA /* Storyboarded.swift in Sources */,
 				A7A75B71261D34D0001DCFEA /* HomeCoordinatore.swift in Sources */,
 				A7CCC3DE26221266004E3876 /* CreateAccountCoordinatore.swift in Sources */,
 				A7CCC3E12622300F004E3876 /* MoreDetailsVC.swift in Sources */,
+				A7CCC3EF26223C4F004E3876 /* MainTabBarVCCoordinatore.swift in Sources */,
 				A7A75B4A261D2F39001DCFEA /* AppDelegate.swift in Sources */,
 				A7CCC3DB2622124F004E3876 /* BuyCordinatore.swift in Sources */,
 				A7A75B6D261D332B001DCFEA /* CreateAccountVC.swift in Sources */,

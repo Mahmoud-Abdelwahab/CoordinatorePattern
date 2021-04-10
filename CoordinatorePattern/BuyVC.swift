@@ -8,7 +8,7 @@
 import UIKit
 
 class BuyVC: UIViewController, Storyboarded{
-    weak var buyCoordinator: BuyCordinatore?
+      var buyCoordinator: BuyCordinatore?
 
     var selectedDate: String?
     
@@ -20,7 +20,7 @@ class BuyVC: UIViewController, Storyboarded{
     
 
     @IBAction func didTapShowMoreDetails(_ sender: Any) {
-        buyCoordinator?.parentCoordinator?.navigateToMoreDetailsVC()
+        buyCoordinator?.navigateToMoreDetailsVC()
     }
   
 
