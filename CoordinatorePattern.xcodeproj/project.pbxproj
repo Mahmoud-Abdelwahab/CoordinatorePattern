@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		A7A75B4A261D2F39001DCFEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A75B49261D2F39001DCFEA /* AppDelegate.swift */; };
 		A7A75B4C261D2F39001DCFEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A75B4B261D2F39001DCFEA /* SceneDelegate.swift */; };
-		A7A75B4E261D2F39001DCFEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A75B4D261D2F39001DCFEA /* ViewController.swift */; };
+		A7A75B4E261D2F39001DCFEA /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A75B4D261D2F39001DCFEA /* HomeVC.swift */; };
 		A7A75B51261D2F39001DCFEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A75B4F261D2F39001DCFEA /* Main.storyboard */; };
 		A7A75B53261D2F3E001DCFEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A75B52261D2F3E001DCFEA /* Assets.xcassets */; };
 		A7A75B56261D2F3E001DCFEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A75B54261D2F3E001DCFEA /* LaunchScreen.storyboard */; };
+		A7A75B61261D2FC5001DCFEA /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A75B60261D2FC5001DCFEA /* Coordinator.swift */; };
+		A7A75B65261D30C7001DCFEA /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A75B64261D30C7001DCFEA /* Storyboarded.swift */; };
+		A7A75B69261D3315001DCFEA /* BuyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A75B68261D3315001DCFEA /* BuyVC.swift */; };
+		A7A75B6D261D332B001DCFEA /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A75B6C261D332B001DCFEA /* CreateAccountVC.swift */; };
+		A7A75B71261D34D0001DCFEA /* HomeCoordinatore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A75B70261D34D0001DCFEA /* HomeCoordinatore.swift */; };
+		A7CCC3DB2622124F004E3876 /* BuyCordinatore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CCC3DA2622124F004E3876 /* BuyCordinatore.swift */; };
+		A7CCC3DE26221266004E3876 /* CreateAccountCoordinatore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CCC3DD26221266004E3876 /* CreateAccountCoordinatore.swift */; };
+		A7CCC3E12622300F004E3876 /* MoreDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CCC3E02622300F004E3876 /* MoreDetailsVC.swift */; };
+		A7CCC3E526223154004E3876 /* MoreDetailsCoordinatore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CCC3E426223154004E3876 /* MoreDetailsCoordinatore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A7A75B46261D2F39001DCFEA /* CoordinatorePattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorePattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A75B49261D2F39001DCFEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7A75B4B261D2F39001DCFEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A7A75B4D261D2F39001DCFEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7A75B4D261D2F39001DCFEA /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		A7A75B50261D2F39001DCFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7A75B52261D2F3E001DCFEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7A75B55261D2F3E001DCFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7A75B57261D2F3E001DCFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A75B60261D2FC5001DCFEA /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		A7A75B64261D30C7001DCFEA /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		A7A75B68261D3315001DCFEA /* BuyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyVC.swift; sourceTree = "<group>"; };
+		A7A75B6C261D332B001DCFEA /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		A7A75B70261D34D0001DCFEA /* HomeCoordinatore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinatore.swift; sourceTree = "<group>"; };
+		A7CCC3DA2622124F004E3876 /* BuyCordinatore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyCordinatore.swift; sourceTree = "<group>"; };
+		A7CCC3DD26221266004E3876 /* CreateAccountCoordinatore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountCoordinatore.swift; sourceTree = "<group>"; };
+		A7CCC3E02622300F004E3876 /* MoreDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreDetailsVC.swift; sourceTree = "<group>"; };
+		A7CCC3E426223154004E3876 /* MoreDetailsCoordinatore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreDetailsCoordinatore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,40 @@
 		A7A75B48261D2F39001DCFEA /* CoordinatorePattern */ = {
 			isa = PBXGroup;
 			children = (
+				A7A75B4D261D2F39001DCFEA /* HomeVC.swift */,
+				A7A75B68261D3315001DCFEA /* BuyVC.swift */,
+				A7A75B6C261D332B001DCFEA /* CreateAccountVC.swift */,
+				A7CCC3E02622300F004E3876 /* MoreDetailsVC.swift */,
+				A7A75B5F261D2FA4001DCFEA /* Coordinator */,
 				A7A75B49261D2F39001DCFEA /* AppDelegate.swift */,
 				A7A75B4B261D2F39001DCFEA /* SceneDelegate.swift */,
-				A7A75B4D261D2F39001DCFEA /* ViewController.swift */,
 				A7A75B4F261D2F39001DCFEA /* Main.storyboard */,
 				A7A75B52261D2F3E001DCFEA /* Assets.xcassets */,
 				A7A75B54261D2F3E001DCFEA /* LaunchScreen.storyboard */,
 				A7A75B57261D2F3E001DCFEA /* Info.plist */,
 			);
 			path = CoordinatorePattern;
+			sourceTree = "<group>";
+		};
+		A7A75B5F261D2FA4001DCFEA /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A7A75B60261D2FC5001DCFEA /* Coordinator.swift */,
+				A7A75B64261D30C7001DCFEA /* Storyboarded.swift */,
+				A7A75B63261D3083001DCFEA /* All Main Coordinatores */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A7A75B63261D3083001DCFEA /* All Main Coordinatores */ = {
+			isa = PBXGroup;
+			children = (
+				A7A75B70261D34D0001DCFEA /* HomeCoordinatore.swift */,
+				A7CCC3DA2622124F004E3876 /* BuyCordinatore.swift */,
+				A7CCC3DD26221266004E3876 /* CreateAccountCoordinatore.swift */,
+				A7CCC3E426223154004E3876 /* MoreDetailsCoordinatore.swift */,
+			);
+			path = "All Main Coordinatores";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +180,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7A75B4E261D2F39001DCFEA /* ViewController.swift in Sources */,
+				A7A75B61261D2FC5001DCFEA /* Coordinator.swift in Sources */,
+				A7A75B4E261D2F39001DCFEA /* HomeVC.swift in Sources */,
+				A7CCC3E526223154004E3876 /* MoreDetailsCoordinatore.swift in Sources */,
+				A7A75B65261D30C7001DCFEA /* Storyboarded.swift in Sources */,
+				A7A75B71261D34D0001DCFEA /* HomeCoordinatore.swift in Sources */,
+				A7CCC3DE26221266004E3876 /* CreateAccountCoordinatore.swift in Sources */,
+				A7CCC3E12622300F004E3876 /* MoreDetailsVC.swift in Sources */,
 				A7A75B4A261D2F39001DCFEA /* AppDelegate.swift in Sources */,
+				A7CCC3DB2622124F004E3876 /* BuyCordinatore.swift in Sources */,
+				A7A75B6D261D332B001DCFEA /* CreateAccountVC.swift in Sources */,
 				A7A75B4C261D2F39001DCFEA /* SceneDelegate.swift in Sources */,
+				A7A75B69261D3315001DCFEA /* BuyVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

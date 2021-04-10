@@ -1,24 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--HomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" id="BYZ-38-t0r" customClass="HomeVC" customModule="CoordinatorePattern" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="dfT-PA-lwz">
+                                <rect key="frame" x="164" y="127" width="87" height="104"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vL3-hg-FSX">
+                                        <rect key="frame" x="28.5" y="0.0" width="30" height="30"/>
+                                        <state key="normal" title="Buy"/>
+                                        <connections>
+                                            <action selector="didTapBuyBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v96-vX-JkM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zHU-ij-IzC">
+                                        <rect key="frame" x="0.0" y="74" width="87" height="30"/>
+                                        <state key="normal" title="CreateCount"/>
+                                        <connections>
+                                            <action selector="didTapCreateAccountBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A4m-cj-2z7"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dfT-PA-lwz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="83" id="1Mo-Kw-55P"/>
+                            <constraint firstItem="dfT-PA-lwz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="164" id="Z3g-W4-aeO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dfT-PA-lwz" secondAttribute="trailing" constant="163" id="gnl-oF-gUS"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-245" y="61"/>
+        </scene>
+        <!--BuyVC-->
+        <scene sceneID="3Q5-Rg-c1v">
+            <objects>
+                <viewController storyboardIdentifier="BuyVC" id="pap-mw-P0i" customClass="BuyVC" customModule="CoordinatorePattern" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EGP-9Z-c0V">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fF5-dV-a1m">
+                                <rect key="frame" x="131" y="167" width="120" height="30"/>
+                                <state key="normal" title="ShowMoreDetails"/>
+                                <connections>
+                                    <action selector="didTapShowMoreDetails:" destination="pap-mw-P0i" eventType="touchUpInside" id="WFK-ht-w77"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pmh-hu-L9A"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="fF5-dV-a1m" firstAttribute="top" secondItem="pmh-hu-L9A" secondAttribute="top" constant="123" id="9ZL-GM-6Gp"/>
+                            <constraint firstItem="fF5-dV-a1m" firstAttribute="leading" secondItem="pmh-hu-L9A" secondAttribute="leading" constant="131" id="W2D-Wu-ADe"/>
+                            <constraint firstItem="pmh-hu-L9A" firstAttribute="trailing" secondItem="fF5-dV-a1m" secondAttribute="trailing" constant="163" id="gOB-bK-X0S"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eiB-UI-K1M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="423" y="61"/>
+        </scene>
+        <!--More DetailsVC-->
+        <scene sceneID="fmZ-av-cYu">
+            <objects>
+                <viewController storyboardIdentifier="MoreDetailsVC" id="apc-FJ-u7m" customClass="MoreDetailsVC" customModule="CoordinatorePattern" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1BG-oS-EdR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xzz-rV-LQP">
+                                <rect key="frame" x="175" y="208" width="55" height="30"/>
+                                <state key="normal" title="Dismiss"/>
+                                <connections>
+                                    <action selector="dismissDidTapped:" destination="apc-FJ-u7m" eventType="touchUpInside" id="djf-Up-675"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6CE-Nq-HBn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Xzz-rV-LQP" firstAttribute="leading" secondItem="6CE-Nq-HBn" secondAttribute="leading" constant="175" id="5MO-9e-haV"/>
+                            <constraint firstItem="6CE-Nq-HBn" firstAttribute="trailing" secondItem="Xzz-rV-LQP" secondAttribute="trailing" constant="184" id="Yzt-QV-duQ"/>
+                            <constraint firstItem="Xzz-rV-LQP" firstAttribute="top" secondItem="6CE-Nq-HBn" secondAttribute="top" constant="164" id="ieG-wG-fb4"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9fi-NJ-GVF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="403" y="767"/>
+        </scene>
+        <!--Create AccountVC-->
+        <scene sceneID="iXY-UQ-XzC">
+            <objects>
+                <viewController storyboardIdentifier="CreateAccountVC" id="yRK-pR-xv5" customClass="CreateAccountVC" customModule="CoordinatorePattern" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fw9-mW-qAD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ZaK-ey-HRE"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Nm-hb-V0o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1122" y="61"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
